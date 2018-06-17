@@ -1,0 +1,410 @@
+{
+  "assetsByChunkName": {
+    "path---sig-apps-minutes-2016-07-13": [
+      "path---sig-apps-minutes-2016-07-13-261811900ffc9a2b2418.js",
+      "path---sig-apps-minutes-2016-07-13-261811900ffc9a2b2418.js.map"
+    ],
+    "path---sig-contributor-experience": [
+      "path---sig-contributor-experience-ed49cafa7dff6dcd0f04.js",
+      "path---sig-contributor-experience-ed49cafa7dff6dcd0f04.js.map"
+    ],
+    "component---src-templates-sig-post-js": [
+      "component---src-templates-sig-post-js-49d0fb3f9911c7e79a86.js",
+      "component---src-templates-sig-post-js-49d0fb3f9911c7e79a86.js.map"
+    ],
+    "path---sigs": [
+      "path---sigs-d660595d1d11a751656e.js",
+      "path---sigs-d660595d1d11a751656e.js.map"
+    ],
+    "path---sig-contributor-experience-projects": [
+      "path---sig-contributor-experience-projects-abb9a62f6ff22689cbae.js",
+      "path---sig-contributor-experience-projects-abb9a62f6ff22689cbae.js.map"
+    ],
+    "path---sig-cluster-lifecycle-migrated-from-wiki": [
+      "path---sig-cluster-lifecycle-migrated-from-wiki-dec5d301eadbf3f80458.js",
+      "path---sig-cluster-lifecycle-migrated-from-wiki-dec5d301eadbf3f80458.js.map"
+    ],
+    "path---sig-apps-minutes-2016-08-03": [
+      "path---sig-apps-minutes-2016-08-03-462174714ce55db0ef7d.js",
+      "path---sig-apps-minutes-2016-08-03-462174714ce55db0ef7d.js.map"
+    ],
+    "path---sig-apps-minutes-2016-06-29": [
+      "path---sig-apps-minutes-2016-06-29-181010dc1fb0ebe06886.js",
+      "path---sig-apps-minutes-2016-06-29-181010dc1fb0ebe06886.js.map"
+    ],
+    "path---sig-release": [
+      "path---sig-release-95da5196a0877c369fb3.js",
+      "path---sig-release-95da5196a0877c369fb3.js.map"
+    ],
+    "path---sig-docs": [
+      "path---sig-docs-8ef8bc1bb2a322ff1507.js",
+      "path---sig-docs-8ef8bc1bb2a322ff1507.js.map"
+    ],
+    "path---sig-auth": [
+      "path---sig-auth-40f5388d4587ad78ca78.js",
+      "path---sig-auth-40f5388d4587ad78ca78.js.map"
+    ],
+    "path---sig-cli-migrated-from-wiki-roadmap-kubectl": [
+      "path---sig-cli-migrated-from-wiki-roadmap-kubectl-c67732d8fcf8ef3d10a1.js",
+      "path---sig-cli-migrated-from-wiki-roadmap-kubectl-c67732d8fcf8ef3d10a1.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-9ec9a415d7c7d776d557.js",
+      "component---src-pages-index-js-9ec9a415d7c7d776d557.js.map"
+    ],
+    "path---sig-apps-contributing": [
+      "path---sig-apps-contributing-4fba37c5f9e12e7b5bb4.js",
+      "path---sig-apps-contributing-4fba37c5f9e12e7b5bb4.js.map"
+    ],
+    "path---sig-contributor-experience-migrated-from-wiki": [
+      "path---sig-contributor-experience-migrated-from-wiki-da13654dcb2fe42bb3ae.js",
+      "path---sig-contributor-experience-migrated-from-wiki-da13654dcb2fe42bb3ae.js.map"
+    ],
+    "path---sig-aws": [
+      "path---sig-aws-c092229f5f40bc9e5dbb.js",
+      "path---sig-aws-c092229f5f40bc9e5dbb.js.map"
+    ],
+    "path---sig-architecture-charter": [
+      "path---sig-architecture-charter-58b8251e949364f9ce91.js",
+      "path---sig-architecture-charter-58b8251e949364f9ce91.js.map"
+    ],
+    "path---sig-cluster-ops": [
+      "path---sig-cluster-ops-cb77eea0a6473cedebef.js",
+      "path---sig-cluster-ops-cb77eea0a6473cedebef.js.map"
+    ],
+    "path---sig-scalability-goals": [
+      "path---sig-scalability-goals-31eeabbb5f411e175ac1.js",
+      "path---sig-scalability-goals-31eeabbb5f411e175ac1.js.map"
+    ],
+    "path---sig-scalability-slos-api-call-latency": [
+      "path---sig-scalability-slos-api-call-latency-74d40a6a8bb8c63be3a6.js",
+      "path---sig-scalability-slos-api-call-latency-74d40a6a8bb8c63be3a6.js.map"
+    ],
+    "path---sig-big-data": [
+      "path---sig-big-data-34e71e12ee27bbd4dcdf.js",
+      "path---sig-big-data-34e71e12ee27bbd4dcdf.js.map"
+    ],
+    "path---": [
+      "path----fc64d9dbdf95accd081e.js",
+      "path----fc64d9dbdf95accd081e.js.map"
+    ],
+    "path---sig-cloud-provider": [
+      "path---sig-cloud-provider-845ad7bcdaca7d31053b.js",
+      "path---sig-cloud-provider-845ad7bcdaca7d31053b.js.map"
+    ],
+    "path---sig-aws-kubernetes-on-aws": [
+      "path---sig-aws-kubernetes-on-aws-68caed3c91499d78056e.js",
+      "path---sig-aws-kubernetes-on-aws-68caed3c91499d78056e.js.map"
+    ],
+    "path---sig-service-catalog": [
+      "path---sig-service-catalog-66979fce4166b8500410.js",
+      "path---sig-service-catalog-66979fce4166b8500410.js.map"
+    ],
+    "path---sig-architecture": [
+      "path---sig-architecture-96637a2c40ebe65c1d52.js",
+      "path---sig-architecture-96637a2c40ebe65c1d52.js.map"
+    ],
+    "path---sig-apps-minutes-2016-06-22": [
+      "path---sig-apps-minutes-2016-06-22-59e5b4eec42253333929.js",
+      "path---sig-apps-minutes-2016-06-22-59e5b4eec42253333929.js.map"
+    ],
+    "path---sig-apps-minutes-2016-05-25": [
+      "path---sig-apps-minutes-2016-05-25-06c14ce631be5ba678dd.js",
+      "path---sig-apps-minutes-2016-05-25-06c14ce631be5ba678dd.js.map"
+    ],
+    "path---sig-azure": [
+      "path---sig-azure-8afd600956acacdb9c3b.js",
+      "path---sig-azure-8afd600956acacdb9c3b.js.map"
+    ],
+    "path---sig-aws-2017-goals": [
+      "path---sig-aws-2017-goals-121f9f1ab1645b76dc22.js",
+      "path---sig-aws-2017-goals-121f9f1ab1645b76dc22.js.map"
+    ],
+    "path---sig-storage": [
+      "path---sig-storage-95b6898a2478eb2903d3.js",
+      "path---sig-storage-95b6898a2478eb2903d3.js.map"
+    ],
+    "path---sig-storage-contributing": [
+      "path---sig-storage-contributing-f8c01c8364fb0ed701e0.js",
+      "path---sig-storage-contributing-f8c01c8364fb0ed701e0.js.map"
+    ],
+    "path---sig-contributor-experience-migrated-from-wiki-effective-reviewable": [
+      "path---sig-contributor-experience-migrated-from-wiki-effective-reviewable-4e89245c2ac51addfdbd.js",
+      "path---sig-contributor-experience-migrated-from-wiki-effective-reviewable-4e89245c2ac51addfdbd.js.map"
+    ],
+    "path---sig-contributor-experience-charter": [
+      "path---sig-contributor-experience-charter-6cf2b87d5a4df9dcf173.js",
+      "path---sig-contributor-experience-charter-6cf2b87d5a4df9dcf173.js.map"
+    ],
+    "path---sig-windows-api-tracking": [
+      "path---sig-windows-api-tracking-c51c42af9cdeeddda465.js",
+      "path---sig-windows-api-tracking-c51c42af9cdeeddda465.js.map"
+    ],
+    "path---sig-storage-1-3-retrospective": [
+      "path---sig-storage-1-3-retrospective-1eb79ae707b8929d1b35.js",
+      "path---sig-storage-1-3-retrospective-1eb79ae707b8929d1b35.js.map"
+    ],
+    "path---sig-storage-volume-plugin-faq": [
+      "path---sig-storage-volume-plugin-faq-1f53fb67e13a2ebc9a80.js",
+      "path---sig-storage-volume-plugin-faq-1f53fb67e13a2ebc9a80.js.map"
+    ],
+    "path---sig-scalability-slos-system-throughput": [
+      "path---sig-scalability-slos-system-throughput-0c1a10ff9aa5a9802685.js",
+      "path---sig-scalability-slos-system-throughput-0c1a10ff9aa5a9802685.js.map"
+    ],
+    "path---sig-apps-minutes-2016-07-27": [
+      "path---sig-apps-minutes-2016-07-27-8ec4bd0b382bf5499f36.js",
+      "path---sig-apps-minutes-2016-07-27-8ec4bd0b382bf5499f36.js.map"
+    ],
+    "path---sig-apps-minutes-2016-07-06": [
+      "path---sig-apps-minutes-2016-07-06-ef4f799cd6af58858dd2.js",
+      "path---sig-apps-minutes-2016-07-06-ef4f799cd6af58858dd2.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-f308975a6c9676d6768a.js",
+      "component---src-layouts-index-js-f308975a6c9676d6768a.js.map"
+    ],
+    "path---sig-scalability-slos-pod-startup-latency": [
+      "path---sig-scalability-slos-pod-startup-latency-715f69a913ce7591c0f3.js",
+      "path---sig-scalability-slos-pod-startup-latency-715f69a913ce7591c0f3.js.map"
+    ],
+    "path---sig-apps-minutes-2016-07-20": [
+      "path---sig-apps-minutes-2016-07-20-a3384731e1bd1257d112.js",
+      "path---sig-apps-minutes-2016-07-20-a3384731e1bd1257d112.js.map"
+    ],
+    "path---sig-api-machinery": [
+      "path---sig-api-machinery-c923baae07d7a6b277b2.js",
+      "path---sig-api-machinery-c923baae07d7a6b277b2.js.map"
+    ],
+    "path---sig-multicluster-contributing": [
+      "path---sig-multicluster-contributing-83b9c6c9693ddde786b2.js",
+      "path---sig-multicluster-contributing-83b9c6c9693ddde786b2.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sig-apps-minutes": [
+      "path---sig-apps-minutes-65be1709f7779bfe20d9.js",
+      "path---sig-apps-minutes-65be1709f7779bfe20d9.js.map"
+    ],
+    "path---sig-azure-charter": [
+      "path---sig-azure-charter-0f4471ad0d9c6db88e4f.js",
+      "path---sig-azure-charter-0f4471ad0d9c6db88e4f.js.map"
+    ],
+    "path---sig-node": [
+      "path---sig-node-8f33ca731c47e5aaafa3.js",
+      "path---sig-node-8f33ca731c47e5aaafa3.js.map"
+    ],
+    "path---sig-cli-outreachy": [
+      "path---sig-cli-outreachy-453fe7b040757a12ba74.js",
+      "path---sig-cli-outreachy-453fe7b040757a12ba74.js.map"
+    ],
+    "path---sig-scalability": [
+      "path---sig-scalability-cca6e2df6924728dd39a.js",
+      "path---sig-scalability-cca6e2df6924728dd39a.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "path---sig-multicluster": [
+      "path---sig-multicluster-54dc68cf8237101fe3b6.js",
+      "path---sig-multicluster-54dc68cf8237101fe3b6.js.map"
+    ],
+    "path---sig-apps": [
+      "path---sig-apps-7968a54a760e2a38806d.js",
+      "path---sig-apps-7968a54a760e2a38806d.js.map"
+    ],
+    "path---sig-apps-agenda": [
+      "path---sig-apps-agenda-281260703778475c41cc.js",
+      "path---sig-apps-agenda-281260703778475c41cc.js.map"
+    ],
+    "commons": [
+      "commons-eb453b2a1d840988d88b.js",
+      "commons-eb453b2a1d840988d88b.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sig-network": [
+      "path---sig-network-dea70a03c9ec77b92f62.js",
+      "path---sig-network-dea70a03c9ec77b92f62.js.map"
+    ],
+    "path---sig-cloud-provider-charter": [
+      "path---sig-cloud-provider-charter-eff522e085b9c5daf7e4.js",
+      "path---sig-cloud-provider-charter-eff522e085b9c5daf7e4.js.map"
+    ],
+    "path---sig-cluster-lifecycle": [
+      "path---sig-cluster-lifecycle-1db57cc77d3f4a3e18d6.js",
+      "path---sig-cluster-lifecycle-1db57cc77d3f4a3e18d6.js.map"
+    ],
+    "path---sig-instrumentation": [
+      "path---sig-instrumentation-406f201a34a116f6545a.js",
+      "path---sig-instrumentation-406f201a34a116f6545a.js.map"
+    ],
+    "path---sig-contributor-experience-community-maintenance": [
+      "path---sig-contributor-experience-community-maintenance-bdedfd0415397013ef68.js",
+      "path---sig-contributor-experience-community-maintenance-bdedfd0415397013ef68.js.map"
+    ],
+    "path---sig-cluster-lifecycle-postmortems-kubeadm-1-6": [
+      "path---sig-cluster-lifecycle-postmortems-kubeadm-1-6-d3947f838ab7ee275c41.js",
+      "path---sig-cluster-lifecycle-postmortems-kubeadm-1-6-d3947f838ab7ee275c41.js.map"
+    ],
+    "path---sig-api-machinery-api-extensions-position-statement": [
+      "path---sig-api-machinery-api-extensions-position-statement-d6af10c339084de98ac5.js",
+      "path---sig-api-machinery-api-extensions-position-statement-d6af10c339084de98ac5.js.map"
+    ],
+    "path---sig-apps-minutes-2016-05-18": [
+      "path---sig-apps-minutes-2016-05-18-f2edf18724e608da6a78.js",
+      "path---sig-apps-minutes-2016-05-18-f2edf18724e608da6a78.js.map"
+    ],
+    "path---sig-scalability-slos-slos": [
+      "path---sig-scalability-slos-slos-db7743e48348a88c17d7.js",
+      "path---sig-scalability-slos-slos-db7743e48348a88c17d7.js.map"
+    ],
+    "path---sig-big-data-resources": [
+      "path---sig-big-data-resources-8c4878426c9b6792d8ae.js",
+      "path---sig-big-data-resources-8c4878426c9b6792d8ae.js.map"
+    ],
+    "path---sig-cluster-lifecycle-migrated-from-wiki-roadmap-cluster-deployment": [
+      "path---sig-cluster-lifecycle-migrated-from-wiki-roadmap-cluster-deployment-049372c2bc04ec7b58da.js",
+      "path---sig-cluster-lifecycle-migrated-from-wiki-roadmap-cluster-deployment-049372c2bc04ec7b58da.js.map"
+    ],
+    "path---sig-scalability-configs-and-limits-thresholds": [
+      "path---sig-scalability-configs-and-limits-thresholds-0a0fbe8ed2a4170bae3b.js",
+      "path---sig-scalability-configs-and-limits-thresholds-0a0fbe8ed2a4170bae3b.js.map"
+    ],
+    "path---sig-aws-contributing": [
+      "path---sig-aws-contributing-1c5c8a39696b005bfbbd.js",
+      "path---sig-aws-contributing-1c5c8a39696b005bfbbd.js.map"
+    ],
+    "path---sig-apps-minutes-2016-06-08": [
+      "path---sig-apps-minutes-2016-06-08-440d1944abd493379d33.js",
+      "path---sig-apps-minutes-2016-06-08-440d1944abd493379d33.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "path---sig-cli-migrated-from-wiki": [
+      "path---sig-cli-migrated-from-wiki-e14d0ee70f157f5fd73f.js",
+      "path---sig-cli-migrated-from-wiki-e14d0ee70f157f5fd73f.js.map"
+    ],
+    "path---sig-gcp": [
+      "path---sig-gcp-72791107b083dc2c652d.js",
+      "path---sig-gcp-72791107b083dc2c652d.js.map"
+    ],
+    "path---sig-product-management-sig-pm-representatives": [
+      "path---sig-product-management-sig-pm-representatives-544e5c14264fdffeaae7.js",
+      "path---sig-product-management-sig-pm-representatives-544e5c14264fdffeaae7.js.map"
+    ],
+    "path---sig-scalability-blogs-scalability-regressions-case-studies": [
+      "path---sig-scalability-blogs-scalability-regressions-case-studies-893a5b91fbdf3d563a4a.js",
+      "path---sig-scalability-blogs-scalability-regressions-case-studies-893a5b91fbdf3d563a4a.js.map"
+    ],
+    "path---sig-docs-migrated-from-wiki-roadmap-docs": [
+      "path---sig-docs-migrated-from-wiki-roadmap-docs-a77d64af167788971cbf.js",
+      "path---sig-docs-migrated-from-wiki-roadmap-docs-a77d64af167788971cbf.js.map"
+    ],
+    "path---sig-cli": [
+      "path---sig-cli-173d3b182741419c0edd.js",
+      "path---sig-cli-173d3b182741419c0edd.js.map"
+    ],
+    "app": [
+      "app-4a0ceeedc64f387231a7.js",
+      "build-js-styles.css",
+      "app-4a0ceeedc64f387231a7.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---sig-ibmcloud": [
+      "path---sig-ibmcloud-794e72cd4e28918456fb.js",
+      "path---sig-ibmcloud-794e72cd4e28918456fb.js.map"
+    ],
+    "path---sig-contributor-experience-markdown-link-style-guide": [
+      "path---sig-contributor-experience-markdown-link-style-guide-f36a45add0ff7c1a4311.js",
+      "path---sig-contributor-experience-markdown-link-style-guide-f36a45add0ff7c1a4311.js.map"
+    ],
+    "path---sig-scalability-slos-api-extensions-latency": [
+      "path---sig-scalability-slos-api-extensions-latency-a6757b989265a4175236.js",
+      "path---sig-scalability-slos-api-extensions-latency-a6757b989265a4175236.js.map"
+    ],
+    "path---sig-product-management": [
+      "path---sig-product-management-d1e5869e2549a754750f.js",
+      "path---sig-product-management-d1e5869e2549a754750f.js.map"
+    ],
+    "path---sig-cli-contributing": [
+      "path---sig-cli-contributing-32008289625abb1f6f67.js",
+      "path---sig-cli-contributing-32008289625abb1f6f67.js.map"
+    ],
+    "path---sig-vmware": [
+      "path---sig-vmware-7ac40465190288dbadd1.js",
+      "path---sig-vmware-7ac40465190288dbadd1.js.map"
+    ],
+    "path---sig-scheduling": [
+      "path---sig-scheduling-c3a5def2a96fcbd5f0a9.js",
+      "path---sig-scheduling-c3a5def2a96fcbd5f0a9.js.map"
+    ],
+    "path---sig-scalability-slos-watch-latency": [
+      "path---sig-scalability-slos-watch-latency-67342cbd20666efe1609.js",
+      "path---sig-scalability-slos-watch-latency-67342cbd20666efe1609.js.map"
+    ],
+    "path---sig-scalability-processes-formal-scalability-processes": [
+      "path---sig-scalability-processes-formal-scalability-processes-fd12a36a074630e977bf.js",
+      "path---sig-scalability-processes-formal-scalability-processes-fd12a36a074630e977bf.js.map"
+    ],
+    "path---sig-ui": [
+      "path---sig-ui-71ce1496dfd3a8df746e.js",
+      "path---sig-ui-71ce1496dfd3a8df746e.js.map"
+    ],
+    "path---sig-scalability-configs-and-limits-provider-configs": [
+      "path---sig-scalability-configs-and-limits-provider-configs-e6828da6a4c28ad6a4a1.js",
+      "path---sig-scalability-configs-and-limits-provider-configs-e6828da6a4c28ad6a4a1.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sig-openstack": [
+      "path---sig-openstack-9d9072374e19881d926a.js",
+      "path---sig-openstack-9d9072374e19881d926a.js.map"
+    ],
+    "path---sig-cli-migrated-from-wiki-contributor-guide-building-your-kubernetes-tool": [
+      "path---sig-cli-migrated-from-wiki-contributor-guide-building-your-kubernetes-tool-c9c9997c8c1a2d327333.js",
+      "path---sig-cli-migrated-from-wiki-contributor-guide-building-your-kubernetes-tool-c9c9997c8c1a2d327333.js.map"
+    ],
+    "path---sig-multicluster-oncall": [
+      "path---sig-multicluster-oncall-27a05360f4db37cc06f5.js",
+      "path---sig-multicluster-oncall-27a05360f4db37cc06f5.js.map"
+    ],
+    "path---sig-docs-migrated-from-wiki": [
+      "path---sig-docs-migrated-from-wiki-5754fcecc1c104453659.js",
+      "path---sig-docs-migrated-from-wiki-5754fcecc1c104453659.js.map"
+    ],
+    "path---sig-apps-minutes-2016-06-15": [
+      "path---sig-apps-minutes-2016-06-15-2ff8515f938e2904f06f.js",
+      "path---sig-apps-minutes-2016-06-15-2ff8515f938e2904f06f.js.map"
+    ],
+    "path---sig-autoscaling": [
+      "path---sig-autoscaling-1b4715889b89dae8a540.js",
+      "path---sig-autoscaling-1b4715889b89dae8a540.js.map"
+    ],
+    "path---sig-architecture-backlog": [
+      "path---sig-architecture-backlog-6975dda3acfdbff56d7c.js",
+      "path---sig-architecture-backlog-6975dda3acfdbff56d7c.js.map"
+    ],
+    "path---sig-windows": [
+      "path---sig-windows-8147d70cb2b1ff822581.js",
+      "path---sig-windows-8147d70cb2b1ff822581.js.map"
+    ],
+    "path---sig-testing": [
+      "path---sig-testing-c7db983db762e00991b9.js",
+      "path---sig-testing-c7db983db762e00991b9.js.map"
+    ]
+  }
+}

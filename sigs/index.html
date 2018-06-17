@@ -1,0 +1,959 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/k8sC-sigs-demo/component---src-layouts-index-js-f308975a6c9676d6768a.js" as="script"/><link rel="preload" href="/k8sC-sigs-demo/component---src-templates-sig-post-js-49d0fb3f9911c7e79a86.js" as="script"/><link rel="preload" href="/k8sC-sigs-demo/path---sigs-d660595d1d11a751656e.js" as="script"/><link rel="preload" href="/k8sC-sigs-demo/app-4a0ceeedc64f387231a7.js" as="script"/><link rel="preload" href="/k8sC-sigs-demo/commons-eb453b2a1d840988d88b.js" as="script"/><title data-react-helmet="true">Kubernetes Community SIGs Page Demo</title><link data-react-helmet="true" rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/><style id="gatsby-inlined-css">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt","kern"}img{max-width:100%;margin:0 0 1.45rem;padding:0}h1{font-size:2.25rem}h1,h2{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{margin:0 0 1.45rem;padding:0}ol,ul{margin:0 0 1.45rem 1.45rem;padding:0;list-style-position:outside;list-style-image:none}dd,dl,figure,p{margin:0 0 1.45rem;padding:0}pre{padding:0;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}pre,table{margin:0 0 1.45rem}table{padding:0;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset{margin:0 0 1.45rem;padding:0}blockquote{margin:0 1.45rem 1.45rem;padding:0}form,iframe,noscript{margin:0 0 1.45rem;padding:0}hr{margin:0 0 calc(1.45rem - 1px);padding:0;background:rgba(0,0,0,.2);border:none;height:1px}address{margin:0 0 1.45rem;padding:0}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:0;padding-top:.2em;padding-bottom:.2em}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style></head><body><div id="___gatsby"><div data-reactroot="" data-reactid="1" data-react-checksum="481213897"><!-- react-empty: 2 --><div style="background:#3371e3;margin-bottom:1.45rem;" data-reactid="3"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem;" data-reactid="4"><h1 style="margin:0;" data-reactid="5"><a style="color:white;text-decoration:none;" href="/k8sC-sigs-demo/" data-reactid="6">Kubernetes Community SIGs Page Demo</a></h1></div></div><div style="margin:0 auto;padding:0px 1.0875rem 1.45rem;padding-top:0;" class="mw9-l" data-reactid="7"><div data-reactid="8"><div class="fl w-25-l" data-reactid="9"><h1 data-reactid="10">SIGs</h1><ul class="list ml0" data-reactid="11"><li data-reactid="12"><a href="/k8sC-sigs-demo/sig-api-machinery/" data-reactid="13">sig-api-machinery</a></li><li data-reactid="14"><a href="/k8sC-sigs-demo/sig-apps/" data-reactid="15">sig-apps</a></li><li data-reactid="16"><a href="/k8sC-sigs-demo/sig-architecture/" data-reactid="17">sig-architecture</a></li><li data-reactid="18"><a href="/k8sC-sigs-demo/sig-auth/" data-reactid="19">sig-auth</a></li><li data-reactid="20"><a href="/k8sC-sigs-demo/sig-autoscaling/" data-reactid="21">sig-autoscaling</a></li><li data-reactid="22"><a href="/k8sC-sigs-demo/sig-aws/" data-reactid="23">sig-aws</a></li><li data-reactid="24"><a href="/k8sC-sigs-demo/sig-azure/" data-reactid="25">sig-azure</a></li><li data-reactid="26"><a href="/k8sC-sigs-demo/sig-big-data/" data-reactid="27">sig-big-data</a></li><li data-reactid="28"><a href="/k8sC-sigs-demo/sig-cli/" data-reactid="29">sig-cli</a></li><li data-reactid="30"><a href="/k8sC-sigs-demo/sig-cloud-provider/" data-reactid="31">sig-cloud-provider</a></li><li data-reactid="32"><a href="/k8sC-sigs-demo/sig-cluster-lifecycle/" data-reactid="33">sig-cluster-lifecycle</a></li><li data-reactid="34"><a href="/k8sC-sigs-demo/sig-cluster-ops/" data-reactid="35">sig-cluster-ops</a></li><li data-reactid="36"><a href="/k8sC-sigs-demo/sig-contributor-experience/" data-reactid="37">sig-contributor-experience</a></li><li data-reactid="38"><a href="/k8sC-sigs-demo/sig-docs/" data-reactid="39">sig-docs</a></li><li data-reactid="40"><a href="/k8sC-sigs-demo/sig-gcp/" data-reactid="41">sig-gcp</a></li><li data-reactid="42"><a href="/k8sC-sigs-demo/sig-ibmcloud/" data-reactid="43">sig-ibmcloud</a></li><li data-reactid="44"><a href="/k8sC-sigs-demo/sig-instrumentation/" data-reactid="45">sig-instrumentation</a></li><li data-reactid="46"><a href="/k8sC-sigs-demo/sig-multicluster/" data-reactid="47">sig-multicluster</a></li><li data-reactid="48"><a href="/k8sC-sigs-demo/sig-network/" data-reactid="49">sig-network</a></li><li data-reactid="50"><a href="/k8sC-sigs-demo/sig-node/" data-reactid="51">sig-node</a></li><li data-reactid="52"><a href="/k8sC-sigs-demo/sig-openstack/" data-reactid="53">sig-openstack</a></li><li data-reactid="54"><a href="/k8sC-sigs-demo/sig-product-management/" data-reactid="55">sig-product-management</a></li><li data-reactid="56"><a href="/k8sC-sigs-demo/sig-release/" data-reactid="57">sig-release</a></li><li data-reactid="58"><a href="/k8sC-sigs-demo/sig-scalability/" data-reactid="59">sig-scalability</a></li><li data-reactid="60"><a href="/k8sC-sigs-demo/sig-scheduling/" data-reactid="61">sig-scheduling</a></li><li data-reactid="62"><a href="/k8sC-sigs-demo/sig-service-catalog/" data-reactid="63">sig-service-catalog</a></li><li data-reactid="64"><a href="/k8sC-sigs-demo/sig-storage/" data-reactid="65">sig-storage</a></li><li data-reactid="66"><a href="/k8sC-sigs-demo/sig-testing/" data-reactid="67">sig-testing</a></li><li data-reactid="68"><a href="/k8sC-sigs-demo/sig-ui/" data-reactid="69">sig-ui</a></li><li data-reactid="70"><a href="/k8sC-sigs-demo/sig-vmware/" data-reactid="71">sig-vmware</a></li><li data-reactid="72"><a href="/k8sC-sigs-demo/sig-windows/" data-reactid="73">sig-windows</a></li></ul></div><div class="fl w-75-l" data-reactid="74"><!---
+This is an autogenerated file!
+
+Please do not edit this file directly, but instead make changes to the
+sigs.yaml file in the project root.
+
+To understand how this file is generated, see https://git.k8s.io/community/generator/README.md
+-->
+<h1>SIGs and Working Groups</h1>
+<p>Most community activity is organized into Special Interest Groups (SIGs),
+time bounded Working Groups, and the <a href="communication.md#weekly-meeting">community meeting</a>.</p>
+<p>SIGs follow these <a href="governance.md">guidelines</a> although each of these groups may operate a little differently
+depending on their needs and workflow.</p>
+<p>Each group's material is in its subdirectory in this project.</p>
+<p>When the need arises, a <a href="sig-creation-procedure.md">new SIG can be created</a></p>
+<h3>Master SIG List</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Label</th>
+<th>Chairs</th>
+<th>Contact</th>
+<th>Meetings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="sig-api-machinery/README.md">API Machinery</a></td>
+<td>api-machinery</td>
+<td>* 
+<a href="https://github.com/lavalamp">Daniel Smith</a>
+, Google
+<br>
+* 
+<a href="https://github.com/deads2k">David Eads</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-api-machinery">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-api-machinery">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/apimachinery">Wednesdays at 11:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-apps/README.md">Apps</a></td>
+<td>apps</td>
+<td>* 
+<a href="https://github.com/mattfarina">Matt Farina</a>
+, Samsung SDS
+<br>
+* 
+<a href="https://github.com/prydonius">Adnan Abdulhussein</a>
+, Bitnami
+<br>
+* 
+<a href="https://github.com/kow3ns">Kenneth Owens</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-apps">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-apps">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/sig.apps">Mondays at 9:00 PT (Pacific Time) (weekly)</a>
+<br>
+* (charts) Charts Chat: 
+<a href="https://zoom.us/j/166909412">Tuesdays at 9:00 PT (Pacific Time) (biweekly)</a>
+<br>
+* (helm) Helm Developer call: 
+<a href="https://zoom.us/j/4526666954">Thursdays at 9:30 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-architecture/README.md">Architecture</a></td>
+<td>architecture</td>
+<td>* 
+<a href="https://github.com/bgrant0607">Brian Grant</a>
+, Google
+<br>
+* 
+<a href="https://github.com/jdumars">Jaice Singer DuMars</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-architecture">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-architecture">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/9690526922">Thursdays at 15:30 UTC (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-auth/README.md">Auth</a></td>
+<td>auth</td>
+<td>* 
+<a href="https://github.com/ericchiang">Eric Chiang</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/liggitt">Jordan Liggitt</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/tallclair">Tim Allclair</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-auth">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-auth">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/k8s.sig.auth">Wednesdays at 11:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-autoscaling/README.md">Autoscaling</a></td>
+<td>autoscaling</td>
+<td>* 
+<a href="https://github.com/mwielgus">Marcin Wielgus</a>
+, Google
+<br>
+* 
+<a href="https://github.com/directxman12">Solly Ross</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-autoscaling">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-autoscaling">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/k8s.sig.autoscaling">Mondays at 14:00 UTC (biweekly/triweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-aws/README.md">AWS</a></td>
+<td>aws</td>
+<td>* 
+<a href="https://github.com/justinsb">Justin Santa Barbara</a>
+<br>
+* 
+<a href="https://github.com/kris-nova">Kris Nova</a>
+, Heptio
+<br>
+* 
+<a href="https://github.com/countspongebob">Bob Wise</a>
+, AWS
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-aws">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-aws">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/k8ssigaws">Fridays at 9:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-azure/README.md">Azure</a></td>
+<td>azure</td>
+<td>* 
+<a href="https://github.com/justaugustus">Stephen Augustus</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/shubheksha">Shubheksha Jalan</a>
+, Microsoft
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-azure">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-azure">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/2015551212">Wednesdays at 16:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-big-data/README.md">Big Data</a></td>
+<td>big-data</td>
+<td>* 
+<a href="https://github.com/foxish">Anirudh Ramanathan</a>
+, Rockset
+<br>
+* 
+<a href="https://github.com/erikerlandson">Erik Erlandson</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/liyinan926">Yinan Li</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-big-data">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-big-data">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/sig.big.data">Wednesdays at 17:00 UTC (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-cli/README.md">CLI</a></td>
+<td>cli</td>
+<td>* 
+<a href="https://github.com/soltysh">Maciej Szulik</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/pwittrock">Phillip Wittrock</a>
+, Google
+<br>
+* 
+<a href="https://github.com/AdoHe">Tony Ado</a>
+, Alibaba
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-cli">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cli">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/sigcli">Wednesdays at 09:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-cloud-provider/README.md">Cloud Provider</a></td>
+<td>cloud-provider</td>
+<td>* 
+<a href="https://github.com/andrewsykim">Andrew Sy Kim</a>
+, DigitalOcean
+<br>
+* 
+<a href="https://github.com/hogepodge">Chris Hoge</a>
+, OpenStack Foundation
+<br>
+* 
+<a href="https://github.com/jagosan">Jago Macleod</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-cloud-provider">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cloud-provider">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/sigcloudprovider">Wednesdays at 10:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-cluster-lifecycle/README.md">Cluster Lifecycle</a></td>
+<td>cluster-lifecycle</td>
+<td>* 
+<a href="https://github.com/lukemarsden">Luke Marsden</a>
+, Weave
+<br>
+* 
+<a href="https://github.com/roberthbailey">Robert Bailey</a>
+, Google
+<br>
+* 
+<a href="https://github.com/luxas">Lucas Käldström</a>
+, Luxas Labs (occasionally contracting for Weaveworks)
+<br>
+* 
+<a href="https://github.com/timothysc">Timothy St. Clair</a>
+, Heptio
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-cluster-lifecycle">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/166836%E2%80%8B624">Tuesdays at 09:00 PT (Pacific Time) (weekly)</a>
+<br>
+* kubeadm Office Hours: 
+<a href="https://zoom.us/j/166836%E2%80%8B624">Wednesdays at 09:00 PT (Pacific Time) (weekly)</a>
+<br>
+* Cluster API working group: 
+<a href="https://zoom.us/j/166836%E2%80%8B624">Wednesdays at 10:00 PT (Pacific Time) (weekly)</a>
+<br>
+* kops Office Hours: 
+<a href="https://zoom.us/my/k8ssigaws">Fridays at 09:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-cluster-ops/README.md">Cluster Ops</a></td>
+<td>cluster-ops</td>
+<td>* 
+<a href="https://github.com/zehicle">Rob Hirschfeld</a>
+, RackN
+<br>
+* 
+<a href="https://github.com/jdumars">Jaice Singer DuMars</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-cluster-ops">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-ops">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/297937771">Thursdays at 20:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-contributor-experience/README.md">Contributor Experience</a></td>
+<td>contributor-experience</td>
+<td>* 
+<a href="https://github.com/Phillels">Elsie Phillips</a>
+, CoreOS
+<br>
+* 
+<a href="https://github.com/parispittman">Paris Pittman</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-contribex">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-contribex">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/7658488911">Wednesdays at 9:30 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-docs/README.md">Docs</a></td>
+<td>docs</td>
+<td>* 
+<a href="https://github.com/zacharysarah">Zach Corleissen</a>
+, Linux Foundation
+<br>
+* 
+<a href="https://github.com/chenopis">Andrew Chen</a>
+, Google
+<br>
+* 
+<a href="https://github.com/jaredbhatti">Jared Bhatti</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-docs">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-docs">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/678394311">Tuesdays at 17:30 UTC (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-gcp/README.md">GCP</a></td>
+<td>gcp</td>
+<td>* 
+<a href="https://github.com/abgworrall">Adam Worrall</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-gcp">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-gcp">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/761149873">Thursdays at 16:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-ibmcloud/README.md">IBMCloud</a></td>
+<td>ibmcloud</td>
+<td>* 
+<a href="https://github.com/khahmed">Khalid Ahmed</a>
+, IBM
+<br>
+* 
+<a href="https://github.com/rtheis">Richard Theis</a>
+, IBM
+<br>
+* 
+<a href="https://github.com/spzala">Sahdev Zala</a>
+, IBM
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-ibmcloud">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-ibmcloud">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/9392903494">Wednesdays at 14:00 EST (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-instrumentation/README.md">Instrumentation</a></td>
+<td>instrumentation</td>
+<td>* 
+<a href="https://github.com/piosz">Piotr Szczesniak</a>
+, Google
+<br>
+* 
+<a href="https://github.com/brancz">Frederic Branczyk</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-instrumentation">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-instrumentation">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/5342565819">Thursdays at 17:30 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-multicluster/README.md">Multicluster</a></td>
+<td>multicluster</td>
+<td>* 
+<a href="https://github.com/csbell">Christian Bell</a>
+, Google
+<br>
+* 
+<a href="https://github.com/quinton-hoole">Quinton Hoole</a>
+, Huawei
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-multicluster">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/k8s.mc">Tuesdays at 9:30 PT (Pacific Time) (biweekly)</a>
+<br>
+* Federation v2 Working Group: 
+<a href="https://zoom.us/my/k8s.mc">Wednesdays at 9:30 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-network/README.md">Network</a></td>
+<td>network</td>
+<td>* 
+<a href="https://github.com/thockin">Tim Hockin</a>
+, Google
+<br>
+* 
+<a href="https://github.com/dcbw">Dan Williams</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/caseydavenport">Casey Davenport</a>
+, Tigera
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-network">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-network">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/5806599998">Thursdays at 14:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-node/README.md">Node</a></td>
+<td>node</td>
+<td>* 
+<a href="https://github.com/dchen1107">Dawn Chen</a>
+, Google
+<br>
+* 
+<a href="https://github.com/derekwaynecarr">Derek Carr</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-node">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-node">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/4799874685">Tuesdays at 10:00 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-openstack/README.md">OpenStack</a></td>
+<td>openstack</td>
+<td>* 
+<a href="https://github.com/hogepodge">Chris Hoge</a>
+, OpenStack Foundation
+<br>
+* 
+<a href="https://github.com/dklyle">David Lyle</a>
+, Intel
+<br>
+* 
+<a href="https://github.com/rjmorse">Robert Morse</a>
+, Ticketmaster
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-openstack">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-openstack">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/417251241">Wednesdays at 16:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-product-management/README.md">Product Management</a></td>
+<td>none</td>
+<td>* 
+<a href="https://github.com/apsinha">Aparna Sinha</a>
+, Google
+<br>
+* 
+<a href="https://github.com/idvoretskyi">Ihor Dvoretskyi</a>
+, CNCF
+<br>
+* 
+<a href="https://github.com/calebamiles">Caleb Miles</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/kubernetes-pm">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-pm">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/845373595">Tuesdays at 16:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-release/README.md">Release</a></td>
+<td>release</td>
+<td>* 
+<a href="https://github.com/jdumars">Jaice Singer DuMars</a>
+, Google
+<br>
+* 
+<a href="https://github.com/calebamiles">Caleb Miles</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-release">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-release">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/664772523">Tuesdays at 21:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-scalability/README.md">Scalability</a></td>
+<td>scalability</td>
+<td>* 
+<a href="https://github.com/wojtek-t">Wojciech Tyczynski</a>
+, Google
+<br>
+* 
+<a href="https://github.com/countspongebob">Bob Wise</a>
+, AWS
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-scalability">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-scale">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/989573207">Thursdays at 16:30 UTC (bi-weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-scheduling/README.md">Scheduling</a></td>
+<td>scheduling</td>
+<td>* 
+<a href="https://github.com/bsalamat">Bobby (Babak) Salamat</a>
+, Google
+<br>
+* 
+<a href="https://github.com/k82cn">Klaus Ma</a>
+, IBM
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-scheduling">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-scheduling">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/7767391691">Thursdays at 20:00 UTC (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-service-catalog/README.md">Service Catalog</a></td>
+<td>service-catalog</td>
+<td>* 
+<a href="https://github.com/pmorie">Paul Morie</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/arschles">Aaron Schlesinger</a>
+, Microsoft
+<br>
+* 
+<a href="https://github.com/vaikas-google">Ville Aikas</a>
+, Google
+<br>
+* 
+<a href="https://github.com/duglin">Doug Davis</a>
+, IBM
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-service-catalog">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-service-catalog">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/7201225346">Mondays at 13:00 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-storage/README.md">Storage</a></td>
+<td>storage</td>
+<td>* 
+<a href="https://github.com/saad-ali">Saad Ali</a>
+, Google
+<br>
+* 
+<a href="https://github.com/childsb">Bradley Childs</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-storage">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-storage">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/614261834">Thursdays at 9:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-testing/README.md">Testing</a></td>
+<td>testing</td>
+<td>* 
+<a href="https://github.com/spiffxp">Aaron Crickenberger</a>
+<br>
+* 
+<a href="https://github.com/fejta">Erick Feja</a>
+, Google
+<br>
+* 
+<a href="https://github.com/stevekuznetsov">Steve Kuznetsov</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/timothysc">Timothy St. Clair</a>
+, Heptio
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-testing">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-testing">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/k8s.sig.testing">Tuesdays at 13:00 PT (Pacific Time) (weekly)</a>
+<br>
+* (testing-commons) Testing Commons: 
+<a href="https://zoom.us/my/k8s.sig.testing">Wednesdays at 07:30 PT (Pacific Time) (bi-weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-ui/README.md">UI</a></td>
+<td>ui</td>
+<td>* 
+<a href="https://github.com/danielromlein">Dan Romlein</a>
+, Google
+<br>
+* 
+<a href="https://github.com/floreks">Sebastian Florek</a>
+, Fujitsu
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-ui">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-ui">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-ui">Thursdays at 18:00 CET (Central European Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-vmware/README.md">VMware</a></td>
+<td>vmware</td>
+<td>* 
+<a href="https://github.com/frapposelli">Fabio Rapposelli</a>
+, VMware
+<br>
+* 
+<a href="https://github.com/cantbewong">Steve Wong</a>
+, VMware
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-vmware">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-vmware">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/j/183662780">Thursdays at 18:00 UTC (bi-weekly)</a>
+<br>
+* Cloud Provider vSphere weekly syncup: 
+<a href="https://zoom.us/j/584244729">Wednesdays at 16:30 UTC (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="sig-windows/README.md">Windows</a></td>
+<td>windows</td>
+<td>* 
+<a href="https://github.com/michmike">Michael Michael</a>
+, Apprenda
+<br>
+* 
+<a href="https://github.com/patricklang">Patrick Lang</a>
+, Microsoft
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-windows">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-windows">Mailing List</a></td>
+<td>* Regular SIG Meeting: 
+<a href="https://zoom.us/my/sigwindows">Tuesdays at 12:30 Eastern Standard Time (EST) (weekly)</a>
+<br></td>
+</tr>
+</tbody>
+</table>
+<h3>Master Working Group List</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Organizers</th>
+<th>Contact</th>
+<th>Meetings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="wg-app-def/README.md">App Def</a></td>
+<td>* 
+<a href="https://github.com/ant31">Antoine Legrand</a>
+, CoreOS
+<br>
+* 
+<a href="https://github.com/bryanl">Bryan Liles</a>
+, Heptio
+<br>
+* 
+<a href="https://github.com/garethr">Gareth Rushgrove</a>
+, Docker
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-app-def">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-app-def">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/j/748123863">Wednesdays at 16:00 UTC (bi-weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-apply/README.md">Apply</a></td>
+<td>* 
+<a href="https://github.com/lavalamp">Daniel Smith</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-apply">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-apply">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/my/apimachinery">Tuesdays at 9:30 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-cloud-provider/README.md">Cloud Provider</a></td>
+<td>* 
+<a href="https://github.com/wlan0">Sidhartha Mani</a>
+, Caascade Labs
+<br>
+* 
+<a href="https://github.com/jagosan">Jago Macleod</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-cloud-provider">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-cloud-provider">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/my/cloudprovider">Wednesdays at 10:00 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-cluster-api/README.md">Cluster API</a></td>
+<td>* 
+<a href="https://github.com/kris-nova">Kris Nova</a>
+, Heptio
+<br>
+* 
+<a href="https://github.com/roberthbailey">Robert Bailey</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/cluster-api">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="">s at   ()</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-container-identity/README.md">Container Identity</a></td>
+<td>* 
+<a href="https://github.com/smarterclayton">Clayton Coleman</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/destijl">Greg Castle</a>
+, Google
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-container-identity">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-container-identity">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="TBD">Tuesdays at 15:00 UTC (bi-weekly (On demand))</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-kubeadm-adoption/README.md">Kubeadm Adoption</a></td>
+<td>* 
+<a href="https://github.com/luxas">Lucas Käldström</a>
+, Luxas Labs (occasionally contracting for Weaveworks)
+<br>
+* 
+<a href="https://github.com/justinsb">Justin Santa Barbara</a>
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/sig-cluster-lifecycle">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/j/166836%E2%80%8B624">Tuesdays at 18:00 UTC (bi-weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-machine-learning/README.md">Machine Learning</a></td>
+<td>* 
+<a href="https://github.com/vishh">Vishnu Kannan</a>
+, Google
+<br>
+* 
+<a href="https://github.com/kow3ns">Kenneth Owens</a>
+, Google
+<br>
+* 
+<a href="https://github.com/balajismaniam">Balaji Subramaniam</a>
+, Intel
+<br>
+* 
+<a href="https://github.com/ConnorDoyle">Connor Doyle</a>
+, Intel
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-machine-learning">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-machine-learning">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/j/4799874685">Thursdays at 13:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-multitenancy/README.md">Multitenancy</a></td>
+<td>* 
+<a href="https://github.com/davidopp">David Oppenheimer</a>
+, Google
+<br>
+* 
+<a href="https://github.com/jessfraz">Jessie Frazelle</a>
+, Microsoft
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-multitenancy">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-multitenancy">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/my/k8s.sig.auth">Wednesdays at 11:00 PT (Pacific Time) (biweekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-policy/README.md">Policy</a></td>
+<td>* 
+<a href="https://github.com/hannibalhuang">Howard Huang</a>
+, Huawei
+<br>
+* 
+<a href="https://github.com/tsandall">Torin Sandall</a>
+, Styra
+<br>
+* 
+<a href="https://github.com/davidopp">David Oppenheimer</a>
+, Google
+<br>
+* 
+<a href="https://github.com/smarterclayton">Clayton Coleman</a>
+, Red Hat
+<br>
+* 
+<a href="https://github.com/xuanjia">Xuan Jia</a>
+, China Mobile
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-policy">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-policy">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/j/421702434">Thursdays at 17:00 PT (Pacific Time) (weekly)</a>
+<br></td>
+</tr>
+<tr>
+<td><a href="wg-resource-management/README.md">Resource Management</a></td>
+<td>* 
+<a href="https://github.com/vishh">Vishnu Kannan</a>
+, Google
+<br>
+* 
+<a href="https://github.com/derekwaynecarr">Derek Carr</a>
+, Red Hat
+<br></td>
+<td>* 
+<a href="https://kubernetes.slack.com/messages/wg-resource-mgmt">Slack</a>
+<br>
+* 
+<a href="https://groups.google.com/forum/#!forum/kubernetes-wg-resource-management">Mailing List</a></td>
+<td>* Regular WG Meeting: 
+<a href="https://zoom.us/j/4799874685">Wednesdays at 11:00 PT (Pacific Time) (biweekly (On demand))</a>
+<br></td>
+</tr>
+</tbody>
+</table>
+<!-- BEGIN CUSTOM CONTENT -->
+<!-- END CUSTOM CONTENT --></div></div></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-4a0ceeedc64f387231a7.js","12584473865371":"component---src-templates-sig-post-js-49d0fb3f9911c7e79a86.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","35783957827783":"component---src-pages-index-js-9ec9a415d7c7d776d557.js","218538773642512":"component---src-pages-page-2-js-075954cd9c4544c7dcd8.js","60335399758886":"path----fc64d9dbdf95accd081e.js","132577891902089":"path---sig-api-machinery-c923baae07d7a6b277b2.js","192668016342287":"path---sig-api-machinery-api-extensions-position-statement-d6af10c339084de98ac5.js","36740811684293":"path---sig-apps-contributing-4fba37c5f9e12e7b5bb4.js","165497185357932":"path---sig-apps-agenda-281260703778475c41cc.js","164373567747628":"path---sig-apps-7968a54a760e2a38806d.js","66457673727773":"path---sig-apps-minutes-2016-05-25-06c14ce631be5ba678dd.js","194070321971408":"path---sig-apps-minutes-2016-05-18-f2edf18724e608da6a78.js","214028073507405":"path---sig-apps-minutes-2016-06-08-440d1944abd493379d33.js","64697196351401":"path---sig-apps-minutes-2016-06-22-59e5b4eec42253333929.js","265626541481785":"path---sig-apps-minutes-2016-06-15-2ff8515f938e2904f06f.js","22013530961774":"path---sig-apps-minutes-2016-06-29-181010dc1fb0ebe06886.js","1197626948668":"path---sig-apps-minutes-2016-07-13-261811900ffc9a2b2418.js","112507525612082":"path---sig-apps-minutes-2016-07-06-ef4f799cd6af58858dd2.js","120922620743986":"path---sig-apps-minutes-2016-07-20-a3384731e1bd1257d112.js","108728492866836":"path---sig-apps-minutes-2016-07-27-8ec4bd0b382bf5499f36.js","20542883218693":"path---sig-apps-minutes-2016-08-03-462174714ce55db0ef7d.js","146070319555499":"path---sig-apps-minutes-65be1709f7779bfe20d9.js","64355182472489":"path---sig-architecture-96637a2c40ebe65c1d52.js","48513453645432":"path---sig-architecture-charter-58b8251e949364f9ce91.js","269588365174742":"path---sig-architecture-backlog-6975dda3acfdbff56d7c.js","28544964818677":"path---sig-auth-40f5388d4587ad78ca78.js","266301365841516":"path---sig-autoscaling-1b4715889b89dae8a540.js","75304490601230":"path---sig-aws-2017-goals-121f9f1ab1645b76dc22.js","44202621572028":"path---sig-aws-c092229f5f40bc9e5dbb.js","209994579214461":"path---sig-aws-contributing-1c5c8a39696b005bfbbd.js","61583624385908":"path---sig-aws-kubernetes-on-aws-68caed3c91499d78056e.js","74834997567574":"path---sig-azure-8afd600956acacdb9c3b.js","150458888953225":"path---sig-azure-charter-0f4471ad0d9c6db88e4f.js","196800035844115":"path---sig-big-data-resources-8c4878426c9b6792d8ae.js","58152383453204":"path---sig-big-data-34e71e12ee27bbd4dcdf.js","233988602544861":"path---sig-cli-contributing-32008289625abb1f6f67.js","154001620586429":"path---sig-cli-outreachy-453fe7b040757a12ba74.js","226680075961177":"path---sig-cli-173d3b182741419c0edd.js","218759600852782":"path---sig-cli-migrated-from-wiki-e14d0ee70f157f5fd73f.js","258493444401860":"path---sig-cli-migrated-from-wiki-contributor-guide-building-your-kubernetes-tool-c9c9997c8c1a2d327333.js","32327972335689":"path---sig-cli-migrated-from-wiki-roadmap-kubectl-c67732d8fcf8ef3d10a1.js","180855430405249":"path---sig-cloud-provider-charter-eff522e085b9c5daf7e4.js","60929127323446":"path---sig-cloud-provider-845ad7bcdaca7d31053b.js","16928431454899":"path---sig-cluster-lifecycle-migrated-from-wiki-dec5d301eadbf3f80458.js","199597514780956":"path---sig-cluster-lifecycle-migrated-from-wiki-roadmap-cluster-deployment-049372c2bc04ec7b58da.js","182912652120498":"path---sig-cluster-lifecycle-1db57cc77d3f4a3e18d6.js","188761495215006":"path---sig-cluster-lifecycle-postmortems-kubeadm-1-6-d3947f838ab7ee275c41.js","49525222008007":"path---sig-cluster-ops-cb77eea0a6473cedebef.js","79643934326439":"path---sig-contributor-experience-charter-6cf2b87d5a4df9dcf173.js","11122699671008":"path---sig-contributor-experience-ed49cafa7dff6dcd0f04.js","188724171600444":"path---sig-contributor-experience-community-maintenance-bdedfd0415397013ef68.js","231946849204828":"path---sig-contributor-experience-markdown-link-style-guide-f36a45add0ff7c1a4311.js","43466899669907":"path---sig-contributor-experience-migrated-from-wiki-da13654dcb2fe42bb3ae.js","77981682193665":"path---sig-contributor-experience-migrated-from-wiki-effective-reviewable-4e89245c2ac51addfdbd.js","14229765511419":"path---sig-contributor-experience-projects-abb9a62f6ff22689cbae.js","226638795404299":"path---sig-docs-migrated-from-wiki-roadmap-docs-a77d64af167788971cbf.js","25997430108574":"path---sig-docs-8ef8bc1bb2a322ff1507.js","263199710772841":"path---sig-docs-migrated-from-wiki-5754fcecc1c104453659.js","221206115338815":"path---sig-gcp-72791107b083dc2c652d.js","231727569093853":"path---sig-ibmcloud-794e72cd4e28918456fb.js","185205733798099":"path---sig-instrumentation-406f201a34a116f6545a.js","260352060296848":"path---sig-multicluster-oncall-27a05360f4db37cc06f5.js","133332500550999":"path---sig-multicluster-contributing-83b9c6c9693ddde786b2.js","163985597139412":"path---sig-multicluster-54dc68cf8237101fe3b6.js","179368222602789":"path---sig-network-dea70a03c9ec77b92f62.js","151788977522456":"path---sig-node-8f33ca731c47e5aaafa3.js","257597053147186":"path---sig-openstack-9d9072374e19881d926a.js","233856240230221":"path---sig-product-management-d1e5869e2549a754750f.js","222971324559947":"path---sig-product-management-sig-pm-representatives-544e5c14264fdffeaae7.js","25665995291268":"path---sig-release-95da5196a0877c369fb3.js","160739705733275":"path---sig-scalability-cca6e2df6924728dd39a.js","49742740574423":"path---sig-scalability-goals-31eeabbb5f411e175ac1.js","251111857232359":"path---sig-scalability-configs-and-limits-provider-configs-e6828da6a4c28ad6a4a1.js","224483981937263":"path---sig-scalability-blogs-scalability-regressions-case-studies-893a5b91fbdf3d563a4a.js","244629098178664":"path---sig-scalability-processes-formal-scalability-processes-fd12a36a074630e977bf.js","201896593416083":"path---sig-scalability-configs-and-limits-thresholds-0a0fbe8ed2a4170bae3b.js","232693134554579":"path---sig-scalability-slos-api-extensions-latency-a6757b989265a4175236.js","51125762411046":"path---sig-scalability-slos-api-call-latency-74d40a6a8bb8c63be3a6.js","118384338984155":"path---sig-scalability-slos-pod-startup-latency-715f69a913ce7591c0f3.js","196072083135701":"path---sig-scalability-slos-slos-db7743e48348a88c17d7.js","107379208415952":"path---sig-scalability-slos-system-throughput-0c1a10ff9aa5a9802685.js","244218636739636":"path---sig-scalability-slos-watch-latency-67342cbd20666efe1609.js","242277250516641":"path---sig-scheduling-c3a5def2a96fcbd5f0a9.js","63454034019686":"path---sig-service-catalog-66979fce4166b8500410.js","76966577868613":"path---sig-storage-95b6898a2478eb2903d3.js","77717792945096":"path---sig-storage-contributing-f8c01c8364fb0ed701e0.js","103460353310270":"path---sig-storage-volume-plugin-faq-1f53fb67e13a2ebc9a80.js","95979276948665":"path---sig-storage-1-3-retrospective-1eb79ae707b8929d1b35.js","277384716435737":"path---sig-testing-c7db983db762e00991b9.js","246009267087661":"path---sig-ui-71ce1496dfd3a8df746e.js","238558648300087":"path---sig-vmware-7ac40465190288dbadd1.js","90819721439033":"path---sig-windows-api-tracking-c51c42af9cdeeddda465.js","272808053112745":"path---sig-windows-8147d70cb2b1ff822581.js","13573584705308":"path---sigs-d660595d1d11a751656e.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-a0e39f21c11f6a62c5ab.js","135728916539164":"path---page-2-a0e39f21c11f6a62c5ab.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-f308975a6c9676d6768a.js"}/*]]>*/</script><script>/*<![CDATA[*/["/k8sC-sigs-demo/commons-eb453b2a1d840988d88b.js","/k8sC-sigs-demo/app-4a0ceeedc64f387231a7.js","/k8sC-sigs-demo/path---sigs-d660595d1d11a751656e.js","/k8sC-sigs-demo/component---src-templates-sig-post-js-49d0fb3f9911c7e79a86.js","/k8sC-sigs-demo/component---src-layouts-index-js-f308975a6c9676d6768a.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
